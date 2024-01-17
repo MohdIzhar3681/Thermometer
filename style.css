@@ -1,0 +1,44 @@
+/* 1. &#xf2cb; 
+2. &#xf2ca;
+3. &#xf2c8;
+4. &#xf2c7;
+5. &#xf2c7; */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.outer-div{
+    width: 100vw;
+    height: 100vh;
+    background: #2a364f;
+    display: grid;
+    place-items: center;
+
+}
+
+.inner-div{
+    
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    place-items: center;
+}
+
+.main-heading{
+    padding: 30px;
+    font-size: 150px;
+    font-weight: 400;
+    text-align: start;
+    text-shadow: 0 1px 8px rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+#temp{
+    padding-left: 20px;
+}
+
